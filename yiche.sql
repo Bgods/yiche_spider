@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS `yiche`;
+CREATE TABLE `yiche` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `Date` char(225) DEFAULT NULL,
+  `CarName` char(225) DEFAULT NULL,
+  `Type` char(225) DEFAULT NULL,
+  `SalesNum` char(225) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
